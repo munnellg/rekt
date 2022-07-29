@@ -14,7 +14,6 @@ else()
 endif()
 
 find_package(Doxygen)
-# find_package(nlohmann_json 3.2.0 REQUIRED)
 
 add_subdirectory(src)
 add_subdirectory(test)
